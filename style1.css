@@ -107,7 +107,7 @@
 /* Six columns side by side */
 .column {
   float: left;
-  width: 12.5%;
+  width: 12%;
   height: 65px;
   margin: auto;
   
@@ -129,3 +129,120 @@
 .demo:hover {
   opacity: 1;
 }
+
+
+
+
+
+
+
+
+
+/* Main content of Projects */
+#main_content {
+  margin: auto;
+  margin-top: 200px;
+  
+}
+
+
+.card_container {
+  width: 83%;
+  border-radius: 10px;
+  background-color: #e0f3ed;
+  border: 2px solid #222;
+  margin: auto;
+  
+}
+
+.card_container .card {
+  width: 41%;
+  height: 50vh;
+  
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
+.card_container .card img {
+  width : 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .card:hover .overlay {
+  opacity: 4;
+  }
+
+
+
+
+  .popup_container{
+    width: 80%;
+    height: auto;
+    min-height: 800px;
+    
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 80px 40px 40px 50px;
+    
+    transition: 5sec ease-in;
+  }
+
+  .popup_container .video {
+    margin-top: 20px;
+  }
+  #AR {
+    background-color: aqua;
+  }
+
+  #Marjanator {
+    background-color: rgb(51, 181, 214);
+  }
+
+  #Exo {
+    background-color: bisque;
+  }
+
+  #Torminator {
+    background-color: rgb(243, 184, 145);
+  }
+
+  #TalkingBot {
+    background-color: rgb(137, 151, 211);
+  }
+  #TalkingBot video {
+    width: 100%;
+    height: auto;
+  }
+
+  #WallPlotter {
+    background-color: rgb(245, 119, 119);
+  }
+
+  #FIDO {
+    background-color: rgb(246, 247, 162);
+  }
+
+
+  #PipeBot {
+    background-color: rgb(220, 163, 238);
+  }
