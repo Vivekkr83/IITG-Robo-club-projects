@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 .tril {
   right: 60%;
   transform: translateX(-50%);
 }
-
+.about_prj p {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+}
 #color-overlay {
   position: absolute;
   top: 0;
