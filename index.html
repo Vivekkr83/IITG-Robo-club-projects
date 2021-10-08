@@ -253,22 +253,22 @@
 <!--Main Content-->
 
   <section id="main_content">
-    <div class="card_container">
+    <!--<div class="card_container">
         
             <div class="card">
                 
-              <a href="#AR"><img src="img/projects/AR-Glasses.jpg" class="image"></a>
+              <a href="#ar"><img src="img/projects/AR-Glasses.jpg" class="image"></a>
                     <div class="overlay">AR Glasses</div>
                 
             </div>
         
 
-        <a href="#">
+        
             <div class="card">
-                <img src="img/projects/21. awwc.jpg" class="image">
-                    <div class="overlay">Marjanator</div>
+              <a href="#"><img src="img/projects/21. awwc.jpg" class="image">
+               <div class="overlay">Marjanator</div></a>
             </div>
-        </a>
+        
 
         <a href="#">
             <div class="card">
@@ -311,10 +311,12 @@
                     <div class="overlay">Pipe Traversing Bot</div>
             </div>
         </a>
-    </div>
+    </div>-->
 
 
+    <a name="ar">
     <div class="popup_container" id="AR">
+      
       <div class="Heading">
         <h1>AR Glasses</h1>
       </div>
@@ -331,6 +333,7 @@
           instruction.</p>
       </div>
     </div>
+    </a>
 
 
 
@@ -345,7 +348,18 @@
         </video>
       </div>
       <div class="about_prj">
-        <p>Marjanator is water traversing bot that is currently semi-autonomous. It will rover on top of the water and collect waste out of it. It's based on a simple model having a wide opening to collect waste fitted with a strainer at the back. It will use a camera to scan the surface of the water body, and then specify the direction over which the trash is drifting. Using paddle wheels, it will slowly hover over the surface and will have all the waste collected inside the empty container. Using this way removes most of the macro-plastic and wastes that are harmful to the aquatic biosphere without use of any chemicals.</p>
+        <p>
+          Marjanator is water traversing bot that is currently
+          semi-autonomous. It will rover on top of the water and collect waste
+          out of it. It's based on a simple model having a wide opening to
+          collect waste fitted with a strainer at the back. It will use a
+          camera to scan the surface of the water body, and then specify the
+          direction over which the trash is drifting. Using paddle wheels, it
+          will slowly hover over the surface and will have all the waste
+          collected inside the empty container. Using this way removes most of
+          the macro-plastic and wastes that are harmful to the aquatic
+          biosphere without use of any chemicals.
+        </p>
       </div>
     </div>
 
@@ -361,9 +375,11 @@
         </video>
       </div>
       <div class="about_prj">
-        <p>The idea behind this project is to develop an upper body exoskeleton for assisting over-head tasks, which is simple, light in weight, and cheap so that everyone can afford it as compared to presently commercially available exoskeletons. It is a passive exoskeleton as it does not use any active power source. The design is quite simple. Shoulder joint of the exoskeleton has 3 degrees of freedom to allow user to move their hands around freely, which is comprised of three rotary joints.</p>
-          
-        <p>For amplification of torque, the suit uses two torsion springs and two telescope conical springs. The torsion springs are connected at the back of the suit, whereas the telescopic springs are at the front. The springs help the wearer to keep his arms aver head for longer period of time which reduces fatigue.</p>
+        <p>The idea behind this project is to develop an upper body exoskeleton for assisting over-head tasks, which is simple, light in weight, and cheap 
+          compared to other commercially available exoskeletons. It is a passive exoskeleton. The shoulder joint has 3 rotary joints and 3 degrees of freedom that allow user 
+          to move hands freely.<br><br>
+          For amplification of torque, the suit uses two torsion springs which are connected at the back of the suit and two telescope conical springs which are at the front.
+           The springs help the wearer to keep his arms aver head for longer period of time which reduces fatigue.</p>
       </div>
     </div>
 
@@ -379,8 +395,8 @@
         </video>
       </div>
       <div class="about_prj">
-        <p>Torminator, the robotic arm, is a high profession farming bot which can be controlled with the help of a remote controller. The Robotic arm is made of Aluminium and is meant for lifting loads, removing obstacles and collecting samples. It has 6 degrees of freedom (6-DOF). It consists of 2 links, of aluminium, and has an end effector for grasping objects which are connected by revolute joints. The end effector is a three-fingered gripper. Soft foam rubber is placed on each finger to grip soft material without causing damage to the surface due to the excessive force from the fingers of the gripper.</p>
-        <p>It has 7 servo motors and 1 DC motor for the rotation of the arm on the base. Inverse kinematics is used to control the position of the end effector, allowing for better control of the arm. 4 LiPo Battery is used to power the arm and Jetson Nano and Arduino are used for the controlling of the arm.</p>
+        <p>Torminator, the robotic arm, is a high profession farming bot which can be controlled with the help of a remote controller. The Robotic arm is made of Aluminium and is meant for lifting loads, removing obstacles and collecting samples. It has 6 degrees of freedom (6-DOF). It consists of 2 links, of aluminium, and has an end effector for grasping objects which are connected by revolute joints. The end effector is a three-fingered gripper. Soft foam rubber is placed on each finger to grip soft material without causing damage to the surface due to the excessive force from the fingers of the gripper.<br><br>
+        It has 7 servo motors and 1 DC motor for the rotation of the arm on the base. Inverse kinematics is used to control the position of the end effector, allowing for better control of the arm. 4 LiPo Battery is used to power the arm and Jetson Nano and Arduino are used for the controlling of the arm.</p>
       </div>
     </div>
 
@@ -397,17 +413,16 @@
         </video>
       </div>
       <div class="about_prj">
-        <p>Taking bot is a machine learning based bot designed to have simple conversions with humans. It uses Transfer Learning to build a State-of-the-Art dialog agent based on OpenAI's GPT-2 Transformer language model.</p>
-
-        <p> The idea behind this approach is quite simple:<br>
+        <p>Taking bot is a machine learning based bot designed to have simple conversions with humans. It uses Transfer Learning to build a State-of-the-Art dialog agent based on OpenAI's GPT-2 Transformer language model.<br><br>
+         The idea behind this approach is quite simple:<br>
           start by pretraining a language model on a very large corpus of text to be able to generate long stretches of contiguous coherent text,
-          fine-tune this language model to adapt it to our end-task: dialog.</p>
+          fine-tune this language model to adapt it to our end-task: dialog.<br><br>
           
-        <p>The model is given a prior consisting of part of a conversation.
+        The model is given a prior consisting of part of a conversation.
         Then the network generates one paragraph to complete one answer in the conversation.
-        Next we can add our own response and the cycle repeats.</p>
+        Next we can add our own response and the cycle repeats.<br><br>
           
-        <p>The ability to recognise and output speech is also added using open-source models and libraries.</p>
+        The ability to recognise and output speech is also added using open-source models and libraries.</p>
       <br><br>
       </div>
 
@@ -554,6 +569,7 @@
       </a>
     </div>
     <script src="slider.js"></script>
+    <script src="popup.js"></script>
     <script>
       filterSelection("y21");
       function filterSelection(c) {

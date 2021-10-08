@@ -2,22 +2,20 @@
   box-sizing: border-box;
 }
 
-.text h1{
+.text h1 {
   font-size: 4.5rem;
-    font-weight: 400;
-    color: black;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    text-transform: uppercase;
-    margin-top: 100px;
-    margin-bottom: 40px;
+  font-weight: 400;
+  color: black;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
-
 
 .text span {
   color: green;
 }
-
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {
@@ -25,12 +23,12 @@
   height: 80vh;
 }
 
-.mySlides{
+.mySlides {
   width: 100%;
   height: 80%;
 }
 
-.mySlides img{
+.mySlides img {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -100,7 +98,7 @@
 
 .row {
   width: 100%;
-  height : auto;
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -110,13 +108,11 @@
   width: 12%;
   height: 65px;
   margin: auto;
-  
-
 }
 
-.column img{
+.column img {
   width: 100%;
-  height:100%;
+  height: 100%;
   object-fit: fill;
 }
 
@@ -130,21 +126,11 @@
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
 /* Main content of Projects */
 #main_content {
   margin: auto;
   margin-top: 200px;
-  
 }
-
 
 .card_container {
   width: 83%;
@@ -152,24 +138,21 @@
   background-color: #e0f3ed;
   border: 2px solid #222;
   margin: auto;
-  
 }
 
 .card_container .card {
   width: 41%;
   height: 50vh;
-  
+
   overflow: hidden;
   border-radius: 5px;
 }
 
-
 .card_container .card img {
-  width : 100%;
+  width: 100%;
   height: 100%;
   object-fit: fill;
 }
-
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
@@ -179,70 +162,114 @@
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1;
   width: 100%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
   color: white;
   font-size: 20px;
   padding: 20px;
   text-align: center;
-  }
-  
-  /* When you mouse over the container, fade in the overlay title */
-  .card:hover .overlay {
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.card:hover .overlay {
   opacity: 4;
-  }
+}
 
+.popup_container {
+  width: 80%;
+  height: auto;
+  min-height: 800px;
 
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 80px 40px 40px 50px;
 
+  transition: 5sec ease-in;
+}
 
-  .popup_container{
-    width: 80%;
-    height: auto;
-    min-height: 800px;
-    
-    margin: 50px auto;
-    border-radius: 20px;
-    padding: 80px 40px 40px 50px;
-    
-    transition: 5sec ease-in;
-  }
+.popup_container .video {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 12.5%;
+}
+#AR {
+  background-color: aqua;
+}
+#AR h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: rgb(14, 133, 133);
+  align-items: center;
+  justify-content: center;
+}
 
-  .popup_container .video {
-    margin-top: 20px;
-  }
-  #AR {
-    background-color: aqua;
-  }
+#Marjanator {
+  background-color: rgb(73, 190, 219);
+}
 
-  #Marjanator {
-    background-color: rgb(51, 181, 214);
-  }
+#Exo {
+  background-color: bisque;
+}
+#Exo h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: rgb(207, 168, 120);
+  align-items: center;
+  justify-content: center;
+}
+#Torminator {
+  background-color: rgb(243, 184, 145);
+}
+#Torminator h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: antiquewhite;
+  align-items: center;
+  justify-content: center;
+}
+#TalkingBot {
+  background-color: rgb(152, 163, 212);
+}
+.Heading h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: #e0f3ed;
+  align-items: center;
+  justify-content: center;
+}
+#TalkingBot .video {
+  padding-left: 0;
+  width: 100%;
+  height: auto;
+}
+#TalkingBot video {
+  width: 100%;
+  height: auto;
+}
 
-  #Exo {
-    background-color: bisque;
-  }
+#WallPlotter {
+  background-color: rgb(245, 119, 119);
+}
 
-  #Torminator {
-    background-color: rgb(243, 184, 145);
-  }
-
-  #TalkingBot {
-    background-color: rgb(137, 151, 211);
-  }
-  #TalkingBot video {
-    width: 100%;
-    height: auto;
-  }
-
-  #WallPlotter {
-    background-color: rgb(245, 119, 119);
-  }
-
-  #FIDO {
-    background-color: rgb(246, 247, 162);
-  }
-
-
-  #PipeBot {
-    background-color: rgb(220, 163, 238);
-  }
+#FIDO {
+  background-color: rgb(102, 255, 204);
+}
+#FIDO h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: rgb(18, 151, 107);
+  align-items: center;
+  justify-content: center;
+}
+#PipeBot {
+  background-color: rgb(204, 255, 255);
+}
+#PipeBot h1 {
+  font-size: 3.4rem;
+  letter-spacing: 0.3rem;
+  color: rgb(7, 104, 71);
+  align-items: center;
+  justify-content: center;
+}
